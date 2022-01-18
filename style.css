@@ -1,0 +1,26 @@
+
+
+.myclass {
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px 10px;
+}
+
+.showdata{
+	padding:50px;
+}
+
+.showdata table{
+	border-collapse: collapse; 
+	border:1px solid black;
+	width: 100%;
+
+}
+
+.showdata table tr td{ 
+	border:1px solid black;
+
+}
+.showdata table th{
+	border:1px solid black;
+}

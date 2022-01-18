@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="myclass">
+        <table>
+            <form onsubmit="event.preventDefault(); onFormSubmit();" action="" name="myform" autocomplete="off">
+                <tr>
+                    <td>Task Name</td>
+                    <td> <input type="text" name="taskname" id=""> </td>
+                    <td> <input type="submit" value="Submit"> </td>
+                </tr>
+
+            </form>
+        </table>
+
+
+        <div class="showdata">
+            <table id="tasklist">
+                <tr>
+                    <th>SI</th>
+                    <th>Task</th>
+                    <th>Action</th>
+
+                </tr>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+
+        <div id="myid"></div>
+    </div>
+
+    <script src="jstest.js"></script>
+</body>
+
+</html>
